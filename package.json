@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "End-to-end automation using playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:headed": "npx playwright test --headed",
+    "test:ui": "npx playwright test --ui",
+    "show-report": "npx playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
